@@ -1,2 +1,2 @@
 # Deveres
- primeiro repositorio feito para colocar programas para aprender o basico de programar.
+ primeiro repositorio feito para aprener o basico do mundo da programação
