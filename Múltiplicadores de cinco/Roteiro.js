@@ -6,5 +6,7 @@ function Confirm(){
 
     if(num <= 0){
         window.alert("Numero impossivel!")
+    } else{
+        window.alert("Ta tudo liberado!")
     }
 }
