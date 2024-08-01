@@ -1,6 +1,7 @@
+var Resu = document.getElementById("Resultado")
+
 function Confirm(){
     var N = document.getElementById("Multiple")
-    var Resu = document.getElementById("Resultado")
 
     var começo = 5 
     var fim = 1 
@@ -13,8 +14,12 @@ function Confirm(){
     } else{
         while(fim <= num){
             Resu.innerHTML += n1
-            n1 +5
+            n1 + 5
             fim ++ 
         }
     }
+}
+
+function Limpar(){
+    Resu.innerHTML = ""
 }
