@@ -13,9 +13,12 @@ function Confirm(){
         window.alert("Numero impossivel!")
     } else{
         while(fim <= num){
-            Resu.innerHTML += n1
-            n1 + 5
+            Resu.innerHTML += ` ${n1}`
+            n1 += 5
             fim ++ 
+        }
+        if (fim = num){
+            Resu.innerHTML += "."
         }
     }
 }
