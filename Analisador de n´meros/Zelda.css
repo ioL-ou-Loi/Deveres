@@ -2,3 +2,23 @@ body{
     background-color: black;
     color: white;
 }
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: gray;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+select{
+    height: 150px;
+    width: 50px;
+}
